@@ -1,7 +1,9 @@
 @echo off 
-SET /a a = 238
-cd C:\Users\macie\OneDrive\Pulpit\FbWebp2Gif_Binaries
+SET /a a = 1
+x:
+cd X:\BOTY DSC\DetektywNaczos.github.io
 :start
-FbWebp2Gif.exe C:\Users\macie\OneDrive\Pulpit\FbWebp2Gif_Binaries\%a%.webp
+FbWebp2Gif.exe "X:\BOTY DSC\DetektywNaczos.github.io\3\%a%.webp"
+del "X:\BOTY DSC\DetektywNaczos.github.io\3\%a%.webp"
 SET /a a = %a% + 1
 goto :start
